@@ -1,11 +1,16 @@
 {
-    "name": "timer-module",
-    "title": "Timer Module",
+    "name": "SimpleTimer",
+    "title": "SimpleTimer",
     "description": "A module that adds a configurable timer visible to all players, controllable by the DM.",
     "version": "1.0.0",
-    "author": "Your Name",
+    "author": "Yamaki",
     "compatibleCoreVersion": "0.7.9",
     "minimumCoreVersion": "0.7.5",
     "scripts": ["scripts/main.js"],
-    "styles": ["styles/timer.css"]
+    "styles": ["styles/timer.css"],
+    "compatibility": {
+        "minimum": "10",
+        "verified": "11.302",
+        "maximum": "11"
+    }
   }  
